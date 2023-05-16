@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+  <title>Bon Bon Bon</title>
+</head>
+
+<nav class="navbar">
+
+  <label class="navbar-toggle" for="chkToggle">
+    <div id="burger-icon"></div>
+    <div id="burger-icon"></div>
+    <div id="burger-icon"></div>
+  </label>
+
+  <input type="checkbox" id="chkToggle">
+  <div id="nav-links">
+    <ul>
+      <input type="search" name="search" id="search" value="Search the Store">
+      <hr>
+      <li><a href="#">
+          <h3>Shop</h3>
+        </a></li>
+      <li><a href="#">
+          <h3>Visit</h3>
+        </a></li>
+      <li><a href="#">
+          <h3>About</h3>
+        </a></li>
+      <li><a href="#">
+          <h3>Large Orders</h3>
+        </a></li>
+    </ul>
+  </div>
+  <div id="logo">
+    <a href="https://bonbonbon.com">
+      <img src="./assets/name.png" alt="BonBonBon" />
+    </a>
+  </div>
+  <table id="cart">
+    <tr>
+      <td class="social-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#df1f26"
+          stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(2 3)">
+            <path d="M20 16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3l2-3h6l2 3h3a2 2 0 0 1 2 2v11z" />
+            <circle cx="10" cy="10" r="4" />
+          </g>
+        </svg>
+      </td>
+      <td class="social-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#df1f26"
+          stroke="#df1f26" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+        </svg>
+      </td>
+      <td class="social-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#df1f26"
+          stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="10 8 16 12 10 16 10 8"></polygon>
+        </svg>
+      </td>
+      <td class="social-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#df1f26"
+          stroke="#df1f26" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+          </path>
+        </svg>
+      </td>
+      <td class="social-icons">|</td>
+      <td>
+        <p><b>CART</b></p>
+      </td>
+    </tr>
+  </table>
+
+</nav>
+
+<body>
+  <main>
+    <img class="splash-image" src="./assets/splash.png" alt="Old photo frames">
+
+    <section class="product-category" id="core-products">
+      <div class="product-category-image"><img src="./assets/bonbons.png" alt="&ldquo;BonBons&rdquo; in BonBon font">
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/springcollection" rel="noopener"><img
+            src="./assets/spring-collection.png" alt="BonBonBon Spring Collection"></a>
+        <figcaption>Spring Collection: Pre-Order</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (3)</p>
+        <p>$50.00</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/extra-large-mystery-mix-bons-25/"
+          rel="noopener"><img src="./assets/extra-large-mystery.png" alt="Extra Large Mystery Mix Bons"></a>
+        <figcaption>Extra Large Mystery Mix Bons (25)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (11)</p>
+        <p>$87.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/small-mystery-mix-bons-10/" rel="noopener"><img
+            src="./assets/small-mystery.png" alt="Small Mystery Mix Bons"></a>
+        <figcaption>Small Mystery Mix Bons (10)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (25)</p>
+        <p>$35.00</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/bon-flight-quartet-4/" rel="noopener"><img
+            src="./assets/flight-quartet.png" alt="Bon Flight Quartet"></a>
+        <figcaption>Bon Flight Quartet (4)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (2)</p>
+        <p>$14.00</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/breakfast-in-bed-bons-4/" rel="noopener"><img
+            src="./assets/breakfast-in-bed.png" alt="Breakfast in Bed Bons"></a>
+        <figcaption>Breakfast in Bed Bons (5)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (6)</p>
+        <p>$17.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/vegan-cutie-bon-trio-3/" rel="noopener"><img
+            src="./assets/vegan-cutie.png" alt="Vegan Cutie Bon Trio"></a>
+        <figcaption>Vegan Cutie Bon Trio (3)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (2)</p>
+        <p>$10.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/cutie-fruity-bons-5/" rel="noopener"><img
+            src="./assets/cutie-fruity.png" alt="Cutie Fruity Bons"></a>
+        <figcaption>Cutie Fruity Bons (5)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (2)</p>
+        <p>$17.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/bons-de-blanc-9/" rel="noopener"><img
+            src="./assets/de-blanc.png" alt="Bons de Blanc"></a>
+        <figcaption>Bons de Blanc (9)</figcaption>
+        <p class="stars">★ ★ ★ ★ ★ (4)</p>
+        <p>$31.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+    </section>
+
+    <section class="product-category" id="more-chocolate">
+      <div class="product-category-image"><img src="./assets/more-chocolate.png" alt="More Chocolate in red text">
+      </div>
+      <div class="product-description"><a href="https://bonbonbon.com/mix-tape-cassette/" rel="noopener"><img
+            src="./assets/cassette-tape.png" alt="Mix Tape Cassette"></a>
+        <figcaption>Mix Tape Cassette</figcaption>
+        <p class="stars">☆ ☆ ☆ ☆ ☆ (0)</p>
+        <p>$17.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+      <div class="product-description"><a
+          href="https://cdn11.bigcommerce.com/s-y3gk6t8q6u/images/stencil/1920w/products/137/782/Dark_Smooth_Album__79274.1670471582.png"
+          rel="noopener"><img src="./assets/album.png" alt="Dark Smooth Album"></a>
+        <figcaption>Dark Smooth Album</figcaption>
+        <p class="stars">☆ ☆ ☆ ☆ ☆ (0)</p>
+        <p>$10.50</p>
+        <a href="http://bonbonbon.com/cart.php" rel="noopener"><button>Add to Cart</button></a>
+      </div>
+    </section>
+
+    <aside><img class="splash-image" src="./assets/bonbonbon-shop.png" alt="Image of a BonBonBon shop">
+      <button>Find a Shop</button>
+    </aside>
+
+  </main>
+
+  <footer>
+    <section id="help">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Allergens</a></li>
+        <li><a href="#">Shopping & Delivery</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </section>
+    <section id="about">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">Track Your Order</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Allergens</a></li>
+        <li><a href="#">Shopping & Delivery</a></li>
+        <li><a href="#">Terms of Use</a></li>
+      </ul>
+    </section>
+    <section id="Newsletter">
+      <h4>Subscribe to our Newsletter</h4>
+      <p>It's like reading a newspaper but without the bad or sad stuff. We promise to keep it Bon.</p>
+      <input type="email" name="form-email" id="form-email" size="70" placeholder="Your email address">
+      <button>Submit</button>
+      <p style="padding-top: 40px;">&copy 2023 Bon Bon Bon</p>
+    </section>
+  </footer>
+</body>
+
+</html>
